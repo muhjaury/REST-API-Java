@@ -14,9 +14,7 @@ public class PinjamDTO {
 
     private Anggota anggota;
     private Buku buku;
-    @JsonFormat(pattern = "dd/MM/yyyy")
     private Date tglPinjam;
-    @JsonFormat(pattern = "dd/MM/yyyy")
     private Date tglKembali;
 
 }

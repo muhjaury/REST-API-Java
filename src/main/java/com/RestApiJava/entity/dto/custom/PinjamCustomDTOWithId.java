@@ -12,8 +12,6 @@ public class PinjamCustomDTOWithId {
     private Integer idPinjam;
     private AnggotaCustomDTO anggota;
     private BukuCustomDTO buku;
-    @JsonFormat(pattern = "dd/MM/yyyy")
     private Date tglPinjam;
-    @JsonFormat(pattern = "dd/MM/yyyy")
     private Date tglKembali;
 }

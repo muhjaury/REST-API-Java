@@ -11,8 +11,6 @@ import java.util.Date;
 public class PinjamCustomDTO {
     private AnggotaCustomDTO anggota;
     private BukuCustomDTO buku;
-    @JsonFormat(pattern = "dd/MM/yyyy")
     private Date tglPinjam;
-    @JsonFormat(pattern = "dd/MM/yyyy")
     private Date tglKembali;
 }

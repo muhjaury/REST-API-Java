@@ -29,7 +29,6 @@ public class Anggota {
     private String noTelp;
 
     @Temporal(TemporalType.DATE)
-    @JsonFormat(pattern = "dd/MM/yyyy")
     @Column(name = "tgl_lahir")
     private Date tglLahir;
 

@@ -29,7 +29,6 @@ public class Buku {
     private String penerbit;
 
     @Temporal(TemporalType.DATE)
-    @JsonFormat(pattern = "dd/MM/yyyy")
     @Column(name = "tahun_terbit")
     private Date tahunTerbit;
 

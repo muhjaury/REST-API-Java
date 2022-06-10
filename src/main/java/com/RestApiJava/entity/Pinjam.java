@@ -31,12 +31,10 @@ public class Pinjam {
     private Buku buku;
 
     @Temporal(TemporalType.DATE)
-    @JsonFormat(pattern = "dd/MM/yyyy")
     @Column(name = "tgl_pinjam")
     private Date tglPinjam;
 
     @Temporal(TemporalType.DATE)
-    @JsonFormat(pattern = "dd/MM/yyyy")
     @Column(name = "tgl_kembali")
     private Date tglKembali;
 }

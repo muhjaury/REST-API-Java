@@ -12,7 +12,6 @@ public class AnggotaDTO {
     private String nama;
     private String alamat;
     private String noTelp;
-    @JsonFormat(pattern = "dd/MM/yyyy")
     private Date tglLahir;
     private String jenisKelamin;
 }
